@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+outputs/figures/*.png
+*.egg-info/
+.ipynb_checkpoints/
+presentation.md
+README.md

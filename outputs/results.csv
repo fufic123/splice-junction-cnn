@@ -1,0 +1,7 @@
+model,seed,test_accuracy,test_macro_f1,input_length,n_classes,n_filters,kernel_size,n_blocks,dropout
+BaselineCNN,42,0.785,0.7731,60,3,64,7,2,0.3
+BaselineCNN,123,0.7724,0.7559,60,3,64,7,2,0.3
+BaselineCNN,777,0.7891,0.7761,60,3,64,7,2,0.3
+DilatedResCNN,42,0.8497,0.8449,60,3,64,5,"(1, 2, 4)",0.3
+DilatedResCNN,123,0.8601,0.8591,60,3,64,5,"(1, 2, 4)",0.3
+DilatedResCNN,777,0.8956,0.8938,60,3,64,5,"(1, 2, 4)",0.3

@@ -1,0 +1,4 @@
+param,value,test_accuracy,test_macro_f1
+n_filters,32,0.8205,0.8187
+n_filters,64,0.8497,0.8449
+n_filters,128,0.8601,0.851
